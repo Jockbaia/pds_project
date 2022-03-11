@@ -14,7 +14,8 @@ $server = new DAV\Server($rootDirectory);
 
 // If your server is not on your webroot, make sure the following line has the
 // correct information
-$server->setBaseUri('/url/to/server.php');
+// $server->setBaseUri('/url/to/server.php');
+$server->setBaseUri('/pds_project/server.php');
 
 // The lock manager is reponsible for making sure users don't overwrite
 // each others changes.
